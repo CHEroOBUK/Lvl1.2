@@ -34,7 +34,7 @@ public class Main {
     }
 
     static void replace01(byte[] a) {
-        for (byte i = 0; i < a.length; i++) {   //Предполагается использование массива до 128 элементов
+        for (byte i = 0; i < a.length; i++) {       //Предполагается использование массива до 128 элементов
             switch (a[i]) {
                 case 1:
                     a[i] = 0;
